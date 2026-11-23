@@ -13,14 +13,14 @@ hosts:
     base_box:
       image: seed
       mgmt_user: ubuntu
-    flavor: standard.medium
+    flavor: standard.m1
 
 routers:
   - name: router
     base_box:
       image: debian-12-x86_64
       mgmt_user: debian
-    flavor: standard.small
+    flavor: standard.m1
 
 wan:
   name: internet-connection
